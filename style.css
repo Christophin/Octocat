@@ -1,0 +1,45 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+.octocat  {
+  float: left;
+  margin: auto 5px;
+}
+
+.octocat > a > img {
+  max-width: 325px;
+  border: 2px solid lightgrey;
+  border-radius: 3px;
+
+}
+
+.image-number  {
+  float: left;
+}
+
+.image-caption {
+  float: right;
+}
+
+.image-caption a {
+  text-decoration: none;
+  color: black;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.authors  {
+  float: right;
+  padding-left: 5px;
+}
+
+.authors img {
+  max-width: 25px;
+}
