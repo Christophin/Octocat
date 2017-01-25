@@ -23,14 +23,15 @@ li {
 .image-footer {
   border-bottom: 2px solid lightgrey;
   height: 30px;
-  padding-top: 5px;
+  padding-top: 2px;
 }
 
 .image-number  {
   float: left;
-  color: grey;
+  color: lightgrey;
   font-family: Verdana;
   font-size: 8pt;
+  font-weight: bold;
 }
 
 .image-number::before{
@@ -41,6 +42,7 @@ li {
   float: right;
   font-family: Verdana;
   font-size: 8pt;
+  font-weight: bold;
 }
 
 .image-caption a {
@@ -64,4 +66,17 @@ li {
 .authors img {
   max-width: 20px;
   border-radius: 3px;
+}
+
+.authors::after {
+  content: "";
+  position: relative;
+  top: -28px;
+  right: 4px;
+  float: right;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 6px 6px 0 6px;
+  border-color: #d3d3d3 transparent transparent transparent;
 }
