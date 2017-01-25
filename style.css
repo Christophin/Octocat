@@ -10,7 +10,7 @@ li {
 
 .octocat  {
   float: left;
-  margin: auto 5px;
+  margin: auto 8px;
 }
 
 .octocat > a > img {
@@ -23,6 +23,7 @@ li {
 .image-footer {
   border-bottom: 2px solid lightgrey;
   height: 30px;
+  padding-top: 5px;
 }
 
 .image-number  {
@@ -30,6 +31,10 @@ li {
   color: grey;
   font-family: Verdana;
   font-size: 8pt;
+}
+
+.image-number::before{
+  content: "#";
 }
 
 .image-caption {
